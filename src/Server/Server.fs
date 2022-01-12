@@ -23,6 +23,9 @@ let bookmarkPersistence = BookmarkPersistence()
 bookmarkPersistence.AddBookmark(Bookmark.create "Metosin" "https://www.metosin.fi/en/" "Metosin,Clojure,Functional,Innovative" true true)
 |> ignore
 
+bookmarkPersistence.AddBookmark(Bookmark.create "On superorganisms - Metosin" "https://www.metosin.fi/blog/superorganism/" "Metosin,Superpowers" true true)
+|> ignore
+
 bookmarkPersistence.AddBookmark(Bookmark.create "Clojure" "https://clojure.org/" "Clojure, Functional" true true)
 |> ignore
 

@@ -1,7 +1,21 @@
-# 
+# Bookmark Manager
 
-Built on top of the SAFE Template, instructions to run below.
+Built with dotnet SAFE template. Fable, Elmish and Bulma as CSS framework.
 
+# Features
+
+- Add bookmarks with title, url and tags for later reading.
+
+- Filter by status and tags.
+
+# TODO List:
+
+- If Title field is left empty, fetch page title from url.
+- Tests
+- Statistics page.
+- Some functionality to remind about sites not read yet.
+- Better UI.
+- Real persistence.
 
 # SAFE Template
 
@@ -33,7 +47,6 @@ Then open `http://localhost:8080` in your browser.
 The build project in root directory contains a couple of different build targets. You can specify them after `--` (target name is case-insensitive).
 
 To run concurrently server and client tests in watch mode (you can run this command in parallel to the previous one in new terminal):
-
 
 Finally, there are `Bundle` and `Azure` targets that you can use to package your app and deploy to Azure, respectively:
 
